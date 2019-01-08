@@ -1,0 +1,28 @@
+#! /usr/bin/env node
+
+const chalk = require('chalk');
+const program = require('commander');
+const lib = require('../lib');
+const pkg = require('../package.json');
+
+const createUenoApp = require('../lib');
+const messages = require('../lib/messages');
+
+let projectName;
+
+program
+  .version(pkg.version)
+  .arguments('<app-type> <project-directory>')
+  .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')}`)
+  .action(function projectNameAction(type, name) {
+    appType = type;
+    projectName = name;
+  })
+  .allowUnknownOption()
+  .on('--help', messages.help)
+  .parse(process.argv);
+
+createUenoApp({
+  appType,
+  projectName,
+});

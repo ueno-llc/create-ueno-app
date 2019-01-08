@@ -1,0 +1,27 @@
+{
+  "name": "create-ueno-app",
+  "version": "0.0.1",
+  "description": "Very quickly create ueno apps",
+  "main": "index.js",
+  "bin": {
+    "create-ueno-app": "./bin/create-ueno-app"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-escapes": "^3.1.0",
+    "bluebird": "^3.5.3",
+    "chalk": "2.4.2",
+    "commander": "2.19.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "ms": "^2.1.1",
+    "ora": "^3.0.0"
+  }
+}
