@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'components/container/Container';
+import { Container } from '../container/Container';
 import s from './Segment.scss';
 
 interface ISegmentProps {

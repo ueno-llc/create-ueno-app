@@ -8,6 +8,7 @@ const pkg = require('../package.json');
 const createUenoApp = require('../lib');
 const messages = require('../lib/messages');
 
+let appType;
 let projectName;
 
 program
