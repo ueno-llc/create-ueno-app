@@ -1,6 +1,6 @@
 {
   "name": "create-ueno-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Very quickly create ueno apps",
   "main": "index.js",
   "bin": {
