@@ -1,0 +1,3 @@
+[submodule "templates/default/src"]
+	path = templates/default/src
+	url = git@github.com:ueno-llc/template-www.git
