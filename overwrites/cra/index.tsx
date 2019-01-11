@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
 import { AppLayout } from './components/app-layout/AppLayout';
-import { Home } from './routes/Home';
-import { About } from './routes/About';
-import { NotFound } from './routes/404';
+import Home from './routes/index';
+import About from './routes/about';
+import NotFound from './routes/404';
 import * as serviceWorker from './serviceWorker';
 
 const App = () => (
