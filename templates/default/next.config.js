@@ -1,3 +1,4 @@
+const path = require('path');
 const withSass = require('@zeit/next-sass');
 const withTypescript = require('@zeit/next-typescript');
 
