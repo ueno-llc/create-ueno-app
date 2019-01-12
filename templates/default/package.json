@@ -18,6 +18,7 @@
     "@ueno/tslint-config": "^1.0.0",
     "autoprefixer": "^9.4.4",
     "classnames-loader": "^2.0.0",
+    "node-sass": "^4.11.0",
     "postcss-csso": "^3.0.0",
     "stylelint": "^9.9.0",
     "svg-to-jsx-loader": "^2.0.1",
