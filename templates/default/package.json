@@ -22,7 +22,7 @@
     "node-sass": "^4.11.0",
     "postcss-csso": "^3.0.0",
     "stylelint": "^9.9.0",
-    "svg-to-jsx-loader": "^2.0.1",
+    "svg-react-loader": "^0.4.6",
     "tslint-react": "^3.6.0",
     "tslint": "^5.12.0",
     "typescript": "^3.0.0"
