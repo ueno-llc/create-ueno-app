@@ -20,6 +20,12 @@ module.exports = withTypescript(
         }
       });
 
+      config.resolve = config.resolve || {};
+      config.resolve.modules = [
+        path.join(__dirname, 'src'),
+        path.join(__dirname, 'node_modules'),
+      ];
+
       return config;
     }
   })
