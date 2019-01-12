@@ -14,6 +14,7 @@
     "@types/react-dom": "^16.0.11",
     "@types/react-helmet": "^5.0.8",
     "@ueno/stylelint-config": "^1.0.4",
+    "@ueno/tslint-config": "^1.0.0",
     "autoprefixer": "^9.4.4",
     "classnames-loader": "^2.0.0",
     "postcss-csso": "^3.0.0",
