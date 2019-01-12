@@ -20,6 +20,18 @@ module.exports = withTypescript(
         }
       });
 
+      config.resolve = config.resolve || {};
+      config.resolve.modules = [
+        path.join(__dirname, 'src'),
+        path.join(__dirname, 'node_modules'),
+      ];
+
+      config.module.rules.push({
+        test: /\.(svg)$/,
+        include: /assets\/svg/,
+        loader: require.resolve('svg-react-loader'),
+      });
+
       return config;
     }
   })
