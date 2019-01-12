@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
-import { AppLayout } from './components/app-layout/AppLayout';
+import AppLayout from './components/app-layout/AppLayout';
 import Home from './pages/index';
 import About from './pages/about';
 import NotFound from './pages/404';
