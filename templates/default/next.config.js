@@ -26,6 +26,12 @@ module.exports = withTypescript(
         path.join(__dirname, 'node_modules'),
       ];
 
+      config.module.rules.push({
+        test: /\.(svg)$/,
+        include: /assets\/svg/,
+        loader: require.resolve('svg-react-loader'),
+      });
+
       return config;
     }
   })
