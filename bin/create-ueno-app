@@ -15,7 +15,9 @@ program
   .version(pkg.version)
   .arguments('<app-type> <project-directory>')
   .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')}`)
-  .action(function projectNameAction(type, name) {
+  .action(function projectNameAction(type, name, ...opts) {
+    console.log('-opts', opts);
+
     appType = type;
     projectName = name;
   })
