@@ -1,13 +1,14 @@
-import React from 'react';
+import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
+import * as serviceWorker from './serviceWorker';
 import AppLayout from './components/app-layout/AppLayout';
+
 import Home from './pages/index';
 import About from './pages/about';
 import NotFound from './pages/404';
-import * as serviceWorker from './serviceWorker';
 
 const App = () => (
   <Router>
@@ -18,6 +19,7 @@ const App = () => (
             <html lang="en" />
             <title>Hello</title>
           </Helmet>
+
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
