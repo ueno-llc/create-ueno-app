@@ -5,7 +5,7 @@ const program = require('commander');
 const pkg = require('../package.json');
 
 const createUenoApp = require('../lib');
-const messages = require('../lib/messages');
+const messages = require('../lib/utils/messages');
 
 let appType;
 let projectName;
