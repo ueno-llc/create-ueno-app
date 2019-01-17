@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "npm run tslint && npm run stylelint",
+    "tslint": "tslint --fix 'src/**/*.{ts,tsx}' -p .",
+    "stylelint": "stylelint 'src/**/*.scss' --syntax scss"
   },
   "license": "MIT",
   "dependencies": {},
