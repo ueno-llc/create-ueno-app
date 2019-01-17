@@ -2,7 +2,6 @@
 
 const chalk = require('chalk');
 const program = require('commander');
-const lib = require('../lib');
 const pkg = require('../package.json');
 
 const createUenoApp = require('../lib');
