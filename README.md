@@ -2,7 +2,7 @@
 <br /><br />
 ![banner](https://user-images.githubusercontent.com/937328/51313594-d7f90e80-1a45-11e9-8d25-28583da916fa.png)
 <br /><br />
-[![about](https://user-images.githubusercontent.com/937328/50184746-da186200-030d-11e9-8edb-3227e9300524.png)](https://ueno.co/contact/?utm_source=github&utm_campaign=create-ueno-app)
+[![about](https://user-images.githubusercontent.com/937328/51540139-999c8e80-1e4d-11e9-866d-284657a34744.png)](https://ueno.co/contact/?utm_source=github&utm_campaign=create-ueno-app)
 <br /><br />
 
 ## Create Ueno App
