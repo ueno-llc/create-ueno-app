@@ -6,12 +6,14 @@ const pkg = require('../package.json');
 
 const createUenoApp = require('../lib');
 const messages = require('../lib/utils/messages');
+const checkForUpdate = require('../lib/utils/check-for-update')
 
 let appType;
 let projectName;
 
 program
   .version(pkg.version)
+  .action(checkForUpdate)
   .arguments('<app-type> <project-directory>')
   .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')}`)
   .action(function projectNameAction(type, name) {
