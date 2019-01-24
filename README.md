@@ -81,9 +81,9 @@ Create-react-app with client-only rendering. It uses the `create-react-app` to s
 Ueno's React Native Starter with everything you'll ever need to deploy rock solid apps. It uses a `lib/utils/eact-native-starter-init` to set up the project and uses our lovely [react-native-starter](https://github.com/ueno-llc/react-native-starter).
 
 > ```bash
-> yarn create ueno-app native example-www com.example.app
-> npx create-ueno-app native example-www com.example.app
-> create-ueno-app native example-www com.example.app
+> yarn create ueno-app native example-app com.example.app
+> npx create-ueno-app native example-app com.example.app
+> create-ueno-app native example-app com.example.app
 > ````
 
 > **Warning** The `project-name` will be generated using the path you defined. e.g. `example-www` will be `exampleWww` as the name for the app.
