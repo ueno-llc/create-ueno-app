@@ -9,7 +9,7 @@
 
 [![npm version](https://badge.fury.io/js/create-ueno-app.svg)](https://badge.fury.io/js/create-ueno-app)
 
-The easiest and fatest way to create new web projects with `next.js`, `gatsby`, `create-react-app` and mobile projects with `react-native`. All of them powered with Ueno's configs. All of our starters kits are shipped with everything to ship rock solid apps.
+The easiest and fastest way to create new web projects with `next.js`, `gatsby`, `create-react-app` and mobile projects with `react-native`. All of them powered with Ueno's configs. All of our starters kits are shipped with everything to ship rock solid apps.
 
 - Opinionated dependencies.
 - SASS and CSS modules.
