@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { Link as GatsbyLink } from 'gatsby';
 
-export const Link = ({ children, ...props }: any) => (
+interface IProps {
+  children: React.ReactNode;
+}
+
+export const Link = ({ children, ...props }: IProps) => (
   <GatsbyLink {...props}>
     {children}
   </GatsbyLink>
