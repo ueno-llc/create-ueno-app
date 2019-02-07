@@ -1,5 +1,13 @@
 {
-  "name": "create-ueno-example-app",
+  "name": "ueno-next-starter",
+  "description": "Opinionated Next starter by Ueno",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["next", "starter", "react", "typescript", "next-starter", "nextjs", "ueno"],
+  "contributors": [
+    "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
+    "Jérémy Barbet <jeremgraph@gmail.com>"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -8,11 +16,10 @@
     "tslint": "tslint --fix 'src/**/*.{ts,tsx}' -p .",
     "stylelint": "stylelint 'src/**/*.scss' --syntax scss"
   },
-  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "7.2.3",
-    "@types/gsap": "1.20.0",
+    "@types/gsap": "1.20.1",
     "@types/lodash": "4.14.119",
     "@types/next": "7.0.6",
     "@types/node": "10.12.18",
