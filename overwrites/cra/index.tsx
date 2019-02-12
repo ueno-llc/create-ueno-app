@@ -1,7 +1,6 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Helmet from 'react-helmet';
 
 import * as serviceWorker from './serviceWorker';
 import AppLayout from './components/app-layout/AppLayout';
@@ -15,11 +14,6 @@ const App = () => (
     <Route
       render={() => (
         <AppLayout>
-          <Helmet>
-            <html lang="en" />
-            <title>Hello</title>
-          </Helmet>
-
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
