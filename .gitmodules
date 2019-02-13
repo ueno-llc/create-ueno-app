@@ -1,4 +1,0 @@
-[submodule "templates/default/src"]
-	path = templates/default/src
-	url = https://github.com/ueno-llc/template-www.git
-	branch = master
