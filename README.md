@@ -9,32 +9,17 @@
 
 [![npm version](https://badge.fury.io/js/create-ueno-app.svg)](https://badge.fury.io/js/create-ueno-app)
 
-The easiest and fastest way to create new web projects with `next.js`, `gatsby`, `create-react-app` and mobile projects with `react-native`. All of them powered with Ueno's configs. All of our starters kits are shipped with everything to ship rock solid apps.
+The easiest and fastest way to create new web projects with `next`, `gatsby`, `create-react-app` and mobile projects with `react-native`. All of them powered with Ueno's configs. All of our starters kits are shipped with everything to ship rock solid apps.
 
-- Opinionated dependencies.
-- SASS and CSS modules.
-- Root resolver (import components/foo).
-- Server Side Rendering.
-- MobX.
-- Code splitting.
+- Opinionated dependencies
+- SASS and CSS modules
+- Root resolver (import `components/header/Header`)
+- Server Side Rendering
+- Code splitting
 
 ## Installation
 
-No installation is needed.
-
-If you are using `yarn`:
-
-```bash
-yarn create ueno-app <stack> <project-name>
-```
-
-If you are using `npm`:
-
-```bash
-npx create-ueno-app <stack> <project-name>
-```
-
-You can still install globally if you want:
+We recommend you installing `create-ueno-app` globally:
 
 ```bash
 yarn global add create-ueno-app
@@ -44,15 +29,29 @@ yarn global add create-ueno-app
 npm install -g create-ueno-app
 ```
 
+<details>
+  <summary>Alternative setup</summary>
+
+  If you are using `yarn`:
+
+  ```bash
+  yarn create ueno-app <stack> <project-name>
+  ```
+
+  If you are using `npm`:
+
+  ```bash
+  npx create-ueno-app <stack> <project-name>
+  ```
+</details>
+
 ## Usage
 
 ### `next`
 
-NextJS with full server capabilities and static rendering. You can check out the code under `templates/default`.
+NextJS with full server capabilities and static rendering. It uses [ueno-next-starter](https://github.com/ueno-llc/ueno-next-starter) as the base config.
 
 > ```bash
-> yarn create ueno-app next example-www
-> npx create-ueno-app next example-www
 > create-ueno-app next example-www
 > ````
 
@@ -61,8 +60,6 @@ NextJS with full server capabilities and static rendering. You can check out the
 Gatsby with static rendering. It uses the default `gatsby-cli` to set up the project and uses [ueno-gatsby-starter](https://github.com/ueno-llc/ueno-gatsby-starter) as the base config.
 
 > ```bash
-> yarn create ueno-app gatsby example-www
-> npx create-ueno-app gatsby example-www
 > create-ueno-app gatsby example-www
 > ````
 
@@ -71,8 +68,6 @@ Gatsby with static rendering. It uses the default `gatsby-cli` to set up the pro
 Create-react-app with client-only rendering. It uses the `create-react-app` to set up the project and uses [@ueno/react-scripts](https://github.com/ueno-llc/create-react-app) as the base config.
 
 > ```bash
-> yarn create ueno-app cra example-www
-> npx create-ueno-app cra example-www
 > create-ueno-app cra example-www
 > ````
 
@@ -81,8 +76,6 @@ Create-react-app with client-only rendering. It uses the `create-react-app` to s
 Ueno's React Native Starter with everything you'll ever need to deploy rock solid apps. It uses a `lib/utils/eact-native-starter-init` to set up the project and uses our lovely [react-native-starter](https://github.com/ueno-llc/react-native-starter).
 
 > ```bash
-> yarn create ueno-app native example-app com.example.app
-> npx create-ueno-app native example-app com.example.app
 > create-ueno-app native example-app com.example.app
 > ````
 
