@@ -13,9 +13,6 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "license": "MIT",
   "dependencies": {
     "ansi-escapes": "3.1.0",
