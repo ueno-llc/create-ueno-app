@@ -1,8 +1,14 @@
 import * as React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 
-export const Link = ({ children, ...props }: any) => (
-  <RouterLink {...props}>
+interface ILinkProps {
+  children: React.ReactNode;
+  to: string;
+  [key: string]: any;
+}
+
+export const Link = ({ children, to, ...props }: ILinkProps) => (
+  <RouterLink to={to} {...props}>
     {children}
   </RouterLink>
 );

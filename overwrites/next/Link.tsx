@@ -1,13 +1,14 @@
 import * as React from 'react';
 import NextLink from 'next/link';
 
-interface IProps {
+interface ILinkProps {
   children: React.ReactNode;
   to: string;
+  [key: string]: any;
 }
 
-export const Link = ({ children, to, ...passProps }: IProps) => (
+export const Link = ({ children, to, ...props }: ILinkProps) => (
   <NextLink href={to}>
-    <a {...passProps}>{children}</a>
+    <a {...props}>{children}</a>
   </NextLink>
 );
