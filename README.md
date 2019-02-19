@@ -51,33 +51,33 @@ npm install -g create-ueno-app
 
 NextJS with full server capabilities and static rendering. It uses [ueno-next-starter](https://github.com/ueno-llc/ueno-next-starter) as the base config.
 
-> ```bash
-> create-ueno-app next example-www
-> ````
+```bash
+create-ueno-app next example-www
+````
 
 ### `gatsby`
 
 Gatsby with static rendering. It uses the default `gatsby-cli` to set up the project and uses [ueno-gatsby-starter](https://github.com/ueno-llc/ueno-gatsby-starter) as the base config.
 
-> ```bash
-> create-ueno-app gatsby example-www
-> ````
+```bash
+create-ueno-app gatsby example-www
+````
 
 ### `cra`
 
 Create-react-app with client-only rendering. It uses the `create-react-app` to set up the project and uses [@ueno/react-scripts](https://github.com/ueno-llc/create-react-app) as the base config.
 
-> ```bash
-> create-ueno-app cra example-www
-> ````
+```bash
+create-ueno-app cra example-www
+````
 
 ### `native`
 
 Ueno's React Native Starter with everything you'll ever need to deploy rock solid apps. It uses a `lib/utils/eact-native-starter-init` to set up the project and uses our lovely [react-native-starter](https://github.com/ueno-llc/react-native-starter).
 
-> ```bash
-> create-ueno-app native example-app com.example.app
-> ````
+```bash
+create-ueno-app native example-app com.example.app
+````
 
 > **Warning** The `project-name` will be generated using the path you defined. e.g. `example-www` will be `exampleWww` as the name for the app.
 
