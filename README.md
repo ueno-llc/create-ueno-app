@@ -65,7 +65,7 @@ create-ueno-app gatsby example-www
 
 ### `cra`
 
-Create-react-app with client-only rendering. It uses the `create-react-app` to set up the project and uses [@ueno/react-scripts](https://github.com/ueno-llc/create-react-app) as the base config.
+Create-react-app with client-only rendering. It uses the `create-react-app` to set up the project and uses [@ueno/react-scripts](https://github.com/ueno-llc/ueno-cra-starter) as the base config.
 
 ```bash
 create-ueno-app cra example-www
