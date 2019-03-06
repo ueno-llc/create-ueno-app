@@ -5,7 +5,7 @@
 [![about](https://user-images.githubusercontent.com/937328/51540139-999c8e80-1e4d-11e9-866d-284657a34744.png)](https://ueno.co/contact/?utm_source=github&utm_campaign=create-ueno-app)
 <br /><br />
 
-## Create Ueno App
+# Create Ueno App
 
 [![npm version](https://badge.fury.io/js/create-ueno-app.svg)](https://badge.fury.io/js/create-ueno-app)
 
@@ -16,22 +16,4 @@ The easiest and fastest way to create new web projects with `next`, `gatsby`, `c
 - Root resolver (import `components/header/Header`)
 - Server Side Rendering
 - Code splitting
-- React hooks
-
-## Getting Started
-
-Install the CLI:
-
-```bash
-yarn global add create-ueno-app
-```
-
-Choose your stack (gatsby/next/cra/native) and create your project:
-
-```bash
-create-ueno-app gatsby my-app
-```
-
-## Documentation
-
-The [documentation is available here](https://ueno-llc.github.io/create-ueno-app) on GitHub Pages.
+- React Hooks
