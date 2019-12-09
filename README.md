@@ -12,7 +12,7 @@
 The easiest and fastest way to create new web projects with `next`, `gatsby`, `create-react-app` and mobile projects with `react-native`. All of them powered with Ueno's configs. All of our starters kits are shipped with everything to ship rock solid apps.
 
 - Opinionated dependencies
-- SASS and CSS modules
+- SASS and CSS modules or Styled components
 - Root resolver (import `components/header/Header`)
 - Server Side Rendering
 - Code splitting
@@ -30,6 +30,12 @@ Choose your stack (gatsby/next/cra/native) and create your project:
 
 ```bash
 create-ueno-app gatsby my-app
+```
+
+Choose styling for your gatsby or next project (sass / styled) it defaults to styled components:
+
+```bash
+create-ueno-app gatsby my-app sass
 ```
 
 ## Documentation

@@ -1,0 +1,36 @@
+@import '~styles/config';
+
+.button {
+  position: fixed;
+  right: 187px;
+  top: 0;
+  z-index: 10000;
+
+  padding: 0 15px;
+  height: 26px;
+
+  border-style: solid;
+  border-width: 0 1px 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+
+  cursor: pointer;
+  pointer-events: all;
+
+  font-size: 12px;
+  text-transform: uppercase;
+
+  color: #999;
+  background-color: #fff;
+  opacity: 1;
+
+  transition: opacity 0.25s, transform 0.1s;
+
+  &:hover {
+    color: #000;
+  }
+
+  &.visible {
+    color: #328bf3;
+  }
+}

@@ -9,14 +9,16 @@ const messages = require('../lib/utils/messages');
 
 let appType;
 let projectName;
+let appStyle = '';
 
 program
   .version(pkg.version)
-  .arguments('<app-type> <project-directory>')
-  .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')}`)
-  .action(function projectNameAction(type, name) {
+  .arguments('<app-type> <project-directory> ')
+  .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')} `)
+  .action(function projectNameAction(type, name, style) {
     appType = type;
     projectName = name;
+    // appStyle = style;
   })
   .allowUnknownOption()
   .on('--help', messages.help)
@@ -25,4 +27,5 @@ program
 createUenoApp({
   appType,
   projectName,
+  // appStyle,
 });
