@@ -12,8 +12,9 @@
 The easiest and fastest way to create new web projects with `next`, `gatsby`, `create-react-app` and mobile projects with `react-native`. All of them powered with Ueno's configs. All of our starters kits are shipped with everything to ship rock solid apps.
 
 - Opinionated dependencies
-- SASS and CSS modules
+- SASS and CSS modules or Styled components
 - Root resolver (import `components/header/Header`)
 - Server Side Rendering
 - Code splitting
-- React Hooks
+- React hooks
+- Prettier, lint-staged, husky, stylelint

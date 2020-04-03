@@ -17,26 +17,28 @@ The easiest and fastest way to create new web projects with `next`, `gatsby`, `c
 - Server Side Rendering
 - Code splitting
 - React hooks
+- Prettier, lint-staged, husky, stylelint
 
 ## Getting Started
 
-Install the CLI:
+Usage (choose your stack, your app name and style library):
 
 ```bash
-yarn global add create-ueno-app
+npx create-ueno-app <gatsby|next|cra|native> my-app <sass|styled>
 ```
 
-Choose your stack (gatsby/next/cra/native) and create your project:
+or
 
 ```bash
-create-ueno-app gatsby my-app
+yarn create ueno-app <gatsby|next|cra|native> my-app <sass|styled>
 ```
 
-Choose styling for your gatsby or next project (sass / styled) it defaults to styled components:
+_Notes_
 
-```bash
-create-ueno-app gatsby my-app sass
-```
+- We don't support yet `styled-components` on the cra starter.
+- We don't and won't support anymore `sass` on the native starter.
+- If you don't provide a style, it will default to `styled-components`.
+- We don't recommend anymore installing `create-ueno-app` globally but rather using `npx`/`yarn create`.
 
 ## Documentation
 
