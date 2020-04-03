@@ -24,7 +24,7 @@ Create React App with client-only rendering. It uses `create-react-app`'s cli to
 
 _Note_
 
-It only have *sass* available as style library.
+It only have _sass_ available as style library.
 
 ```bash
 yarn create ueno-app cra example-www
@@ -36,7 +36,7 @@ Ueno's React Native Starter with everything you'll need to deploy rock solid app
 
 _Note_
 
-We only support *styled-components* for the native starter.
+We only support _styled-components_ for the native starter.
 
 ```bash
 yarn create ueno-app native example-app com.example.app
