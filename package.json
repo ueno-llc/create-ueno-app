@@ -24,6 +24,7 @@
     "fs-extra": "9.0.0",
     "gatsby-cli": "2.11.5",
     "hosted-git-info": "3.0.4",
+    "is-installed-globally": "0.3.2",
     "ora": "4.0.3"
   }
 }
