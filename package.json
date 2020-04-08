@@ -1,6 +1,6 @@
 {
   "name": "create-ueno-app",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "The easiest and fastest way to create new web projects with next, gatsby, create-react-app and mobile projects with react-native.",
   "contributors": [
     "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
