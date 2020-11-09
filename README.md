@@ -1,3 +1,7 @@
+# WARNING
+
+## These starter kits have been deprecated and are no longer being actively maintained. 
+
 [![logo](https://user-images.githubusercontent.com/937328/51313595-d7f90e80-1a45-11e9-8375-a94f03e52fc6.png)](https://ueno.co/?utm_source=github&utm_campaign=create-ueno-app)
 <br /><br />
 ![banner](https://user-images.githubusercontent.com/937328/51313594-d7f90e80-1a45-11e9-8d25-28583da916fa.png)
